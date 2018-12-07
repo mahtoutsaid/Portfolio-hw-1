@@ -76,9 +76,12 @@ nav ul a:hover {
 
 .main-div {
 	width: 920px;
+	height: 490px;
 	background-color:#ffffff;
 	margin:0 auto;
 	padding: 20px;
+	position: relative;
+	overflow: auto;
 }
 .header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -140,6 +143,20 @@ button:hover {
 #imag {
 	overflow: visible;
 }
+
+.pp {
+	background-color: red;
+	position: relative;
+	bottom: 20px;
+	width: 100%;
+}
+.img-div {
+	float: left;
+	margin-right: 20px;
+}
+
+
+
 
 #foot-div {
 	background-color:#666666; 
