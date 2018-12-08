@@ -1,46 +1,19 @@
+/*-------Container-------*/
 #container{
 	margin: 0 auto;
 }
+/*-------End container----*/
+
+/*-------Nav Bar-------*/
 nav {
 	margin: 0 auto;
-	background-color:#ffffff;
-	
-}
-nav ul li {
- 
-    list-style-type: : none;
-    display: inline-block;
-    float: right;
-    padding: 10px;
-    color: #000000;
-}
-
-nav ul{ 
-padding: 20px 0 50px 0;
-	
-}
-nav ul a {
-	text-decoration: none;
-	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #000000;
-	font-size: 14px;
-}
-nav ul a:hover {
-	background-color:#4aaaa5;
-	border-radius: 4px; 
-
+	background-color:#ffffff;	
 }
 #nav-div { 
 	margin: 0 auto;
 	width: 960px;
-	background-color:#ffffff;
-	
+	background-color:#ffffff;	
 }
-#nav-list {
-		
-	
-}
-
 #nav-par {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
@@ -50,33 +23,41 @@ nav ul a:hover {
 	padding: 25px;
 	font-weight: bold;
 }
-
-/*.mydiv {
-	width: 200px;
-	height: 200px;
-	background-color: red;
-}*/
-
-#sec-about-me-div {
-	background-color:#dddddd;
-	padding-top: 40px;
-	padding-bottom: 130px;
-
+nav ul { 
+padding-top: 20px;
+float: right;	
 }
-#sec-contact-div {
-	background-color:#dddddd;
-	padding-top: 40px;
-	padding-bottom: 166px; 
+nav ul li {
+ 
+    list-style-type: : none;
+    display: inline-block;
+    
+    padding: 10px;
+    color: #000000;
 }
-#sec-portfolio-div {
+nav ul a {
+
+	text-decoration: none;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #000000;
+	font-size: 14px;
+}
+nav ul a:hover {
+	background-color:#4aaaa5;
+	border-radius: 4px;
+}
+/*-----End Nav Bar-----*/
+
+/*------Section-------*/
+.sec-div {
+	clear: both;
 	background-color:#dddddd;
 	padding-top: 40px;
-	padding-bottom: 130px;
+	height: 640px;
 }
 
 .main-div {
 	width: 920px;
-	height: 490px;
 	background-color:#ffffff;
 	margin:0 auto;
 	padding: 20px;
@@ -91,7 +72,6 @@ nav ul a:hover {
 	clear: left;
 	padding-top: 20px;
 	padding-bottom: 15px;
-	/*padding-left: 30px;*/
 }
 hr {
 	color: #dddddd;
@@ -99,20 +79,51 @@ hr {
 	width: 920px;
 	margin-bottom: 25px;
 }
-#about-me-par {
-	font-family:  'Georgia', Times, Times New Roman, serif;
-	line-height: 40px;
-	font-size: 20px;
-	/*padding: 30px;*/
-}
+
+/*About Me*/
 #about-me-imag {
 	width: 215px;
 	height: 155px;
 	float: left;
-	/*padding-left: 30px;*/
 	padding-right: 20px;
 }
+#about-me-para {
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	line-height: 40px;
+	font-size: 20px;
+}
+/*End About Me*/
 
+/*Portfolio*/
+#portfolio-main-div {
+    height: 570px;
+}
+.portfolio-img-div {
+	float: left;
+	margin: 15px 30px 0  0;
+}
+.portfolio-imag {
+	width: 300px;
+	height: 250px;
+}
+.imag-title {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 22px;
+	color: #ffffff;
+	padding-top: 20px;
+	position: relative;
+	bottom: 80px;
+	width: 100%;
+	height: 45px;
+}
+.imag-title:hover {
+	background-color: #808080;;
+}
+/*Eend Portfolio*/
+
+/*Contact*/
 .form-label {
 
 	font-size: 16px;
@@ -122,6 +133,7 @@ hr {
 	padding: 10px;
 	margin: 5px 0 5px 0;
 	width: 900px;
+
 }
  button {
  	width: 80px;
@@ -131,40 +143,22 @@ hr {
  	font-weight: bold;
  }
 button:hover {
-	background-color: gray;
-
+	background-color: #708090;
 }
+/*End Contact*/
+/*------End Section-----*/
 
-
-
-#mdiv {
-	background-color: red;
-}
-#imag {
-	overflow: visible;
-}
-
-.pp {
-	background-color: red;
-	position: relative;
-	bottom: 20px;
-	width: 100%;
-}
-.img-div {
-	float: left;
-	margin-right: 20px;
-}
-
-
-
-
+/*-----Footer-----*/
 #foot-div {
 	background-color:#666666; 
 	border-top: 8px solid #4aaaa5;
 }
-#foot-par {
-    padding-top: 45px;
-    padding-bottom: 10px;
+#foot-para {
+    padding-top: 35px;
+    padding-bottom: 12px;
     color: #ffffff;
     text-align: center;
 }
+/*------End Footer-------*/
+
+
